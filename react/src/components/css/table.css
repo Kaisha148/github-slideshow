@@ -1,0 +1,12 @@
+th {
+    background-color: #B72424;
+    color: white;
+}
+
+
+.tableHeader{
+    background-color: #B72424;
+    color: white;
+    height: 200px;
+    line-height: 20px;
+}

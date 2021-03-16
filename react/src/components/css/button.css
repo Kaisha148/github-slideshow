@@ -1,0 +1,32 @@
+.button {
+    width: 144px;
+    height: 50px;
+    margin: 10px 10px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    background: linear-gradient(#B85454 0%, #B72424 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.button:hover {
+    /*nosetaとき*/
+    background: linear-gradient(#FF7575 0%, #FF3333 100%);
+    color: white;
+  }
+
+.button:active {
+    /*押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*沈むように*/
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(#FED6E3 0%, #FFBCBC 100%);/*グラデーションを明るく*/
+    color: #FFFFFF;
+  }

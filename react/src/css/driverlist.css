@@ -1,0 +1,54 @@
+table {
+    width:90%;
+    margin: auto;
+}
+
+h2 {
+    color: white;
+    background-color: rgb(60, 72, 88);
+}
+.search_title_area{
+    background-color: rgb(175, 175, 175);
+    border: solid 5px rgb(175, 175, 175);
+    margin: auto 30px;
+    text-align: center;
+}
+.right {
+    margin-left: auto;
+}
+h3 {
+    width:100%;
+}
+
+.oc_button{
+    width:40%;
+    text-align: right;
+}
+.explain {
+    margin-left: 30px
+}
+
+.body {
+    margin: 10px 10px;
+}
+
+#search {
+    border: solid 5px rgb(175, 175, 175);
+    margin: auto 30px;
+}
+
+.link-style-btn{
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #0033cc;
+  }
+
+.link-style-btn:hover{
+    text-decoration: underline;
+    color: #002080;
+}
+
+.option {
+    text-align: center;
+}
