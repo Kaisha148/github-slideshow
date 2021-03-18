@@ -14,7 +14,6 @@ function DriverList() {
     const [show,setShow] = useState(false);
 	return (
 		<div className="body">
-            {/* <Tab /> */}
             <p><Link to={'/top'}>ホーム</Link> ＞ ドライバー一覧</p>
 
             <h2>ドライバー一覧</h2>

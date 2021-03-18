@@ -25,7 +25,7 @@ input[name="tab_name"] {
 }
  
 input:checked + .tab_class { 
-  background-color: cadetblue;
+  background-color: green;
   color: aliceblue;
 }
  

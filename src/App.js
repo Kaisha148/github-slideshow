@@ -27,7 +27,7 @@ function App() {
 				<article>
 					<Route path='/login' component={Login} />
 					<Route path='/top' component={Top} />
-					<Route path='/driverlist' component={DriverList} />
+					<Route path='/' component={DriverList} />
 				</article>
 			</BrowserRouter>
 		)
